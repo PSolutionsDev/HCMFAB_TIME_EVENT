@@ -34,6 +34,10 @@ sap.ui.define([
 		//    extHookOnCreate: null,
 		//    extHookOnDelete: null,
 		//    extHookOnChangeOfDate: null,
+		
+		
+		
+		
 		//    extHookOriginColumn: null,
 		//    extHookCalendarMarking: null,
 		onInit: function () {
