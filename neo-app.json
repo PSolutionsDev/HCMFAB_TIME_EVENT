@@ -1,0 +1,91 @@
+{
+	"welcomeFile": "/webapp/index.html",
+	"routes": [{
+		"path": "/webapp/resources/hcm/fab/lib/common",
+		"target": {
+			"type": "destination",
+			"name": "GWD",
+			"entryPath": "/sap/bc/ui5_ui5/sap/HCMFAB_COMMON"
+		},
+		"description": "UI Reuse lib HCM"
+	}, {
+		"path": "/resources/hcm/fab/lib/common",
+		"target": {
+			"type": "destination",
+			"name": "GWD",
+			"entryPath": "/sap/bc/ui5_ui5/sap/HCMFAB_COMMON"
+		},
+		"description": "UI Reuse lib HCM"
+	}, {
+		"path": "/sap/opu/odata",
+		"target": {
+			"type": "destination",
+			"name": "GWD",
+			"entryPath": "/sap/opu/odata"
+		},
+		"description": "Adessa Gateway"
+	}, {
+		"path": "/sap/bc/ui5_ui5",
+		"target": {
+			"type": "destination",
+			"name": "GWD",
+			"entryPath": "/sap/bc/ui5_ui5"
+		},
+		"description": "Adessa Gateway"
+	}, {
+		"path": "/webapp/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/webapp/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/dist/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/dist/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources",
+			"version": "1.52.38"
+		},
+		"description": "SAPUI5 Test Resources"
+	}],
+	"sendWelcomeFileRedirect": true
+}
